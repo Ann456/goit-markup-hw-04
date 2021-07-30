@@ -117,7 +117,6 @@ a {
 
 .header-tel-email {
   display: flex;
-  flex-wrap: wrap;
   margin-left: auto;
 }
 
@@ -408,11 +407,12 @@ a {
 }
 
 .icon-thumb {
+  display: flex;
   padding: 12px;
   width: 44;
   height: 44;
 
-  border-radius: 50% 50%;
+  border-radius: 50%;
 }
 
 .icon-thumb:hover,
