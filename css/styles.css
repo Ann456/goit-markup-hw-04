@@ -268,16 +268,15 @@ a {
   color: var(--tel-color);
 }
 
-.icon-astronaut-1-thumb,
-.icon-diagram-1-thumb,
-.icon-clock-1-thumb,
-.icon-antenna-1-thumb {
+.icon-features-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  padding: 25px 100px;
 }
 
 /*--Чем мы занимаемся--*/
@@ -317,13 +316,12 @@ a {
 }
 
 .icon-Logo-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
-
-  border-radius: 4px;
-  padding: 16px 32px;
   fill: #afb1b8;
-
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
